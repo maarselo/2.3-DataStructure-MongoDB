@@ -20,8 +20,8 @@ Deliverables per exercise:
 
 ## 🧾 Level 1
 
-### 👓 Exercise 1 – Optics Store
-We design a MongoDB schema for the store **“Cul d’Ampolla”** to manage clients and glasses sales.  
+### 👓 Optics Store
+We design a two MongoDB schema for the store **“Cul d’Ampolla”** to manage clients and glasses sales.  
 The database stores information about:
 
 - **Suppliers**: name, address (street, number, floor, door, city, postal code, country), phone, fax, tax ID.  
@@ -29,11 +29,6 @@ The database stores information about:
 - **Clients**: name, address, phone, email, registration date, and who recommended them.  
 - **Employees**: track which employee sold each pair of glasses.  
 - **Sales**: date/time of transaction.
-
-#### Queries to design for:
-- List total invoices of a client in a period.  
-- List glasses sold by an employee in a given year.  
-- List suppliers for successfully sold glasses.  
 
 ---
 
@@ -52,12 +47,9 @@ The database stores:
 Relations modeled:  
 - One client → many orders.  
 - One store → many orders.  
-- One employee → one store.  
+- One employee → one store.
+- One order → many products.   
 - Orders can be assigned to delivery employees with delivery date/time.  
-
-#### Queries to design for:
-- Count how many drinks were sold in a given city.  
-- Count how many orders were managed by a specific employee.  
 
 ---
 
@@ -79,20 +71,21 @@ The database stores:
 Relations modeled:  
 - One user → many videos.  
 - One user → many playlists.  
+- One video → many tags. 
+- One user → one channel.
 - One user → many comments.  
 - Users can subscribe to other users’ channels.  
 
 ---
 
 ## 💻 Technologies Used
-- Database: MongoDB  
+- Database bases: MongoDB  
 - Diagram Tool: JsonCrack  
 
 ---
 
 ## 📋 Requirements
 Before reviewing this project, make sure you:  
-- Extract the provided `.zip` file.  
 - Open the **JSON files** in JsonCrack to visualize schemas.  
 - Open the **.png diagrams** for quick reference.  
 
@@ -101,7 +94,7 @@ Before reviewing this project, make sure you:
 ---
 
 ## 🛠️ Installation
-1. Unzip the project folder.  
+1. Clone the repository. 
 2. Open the `.json` files in JsonCrack or any JSON viewer.  
 3. Open the `.png` diagrams for the ER structure.  
 
@@ -120,7 +113,7 @@ Not applicable. The project is only for design and visualization purposes.
 
 ## 🤝 Contributions
 Suggestions to improve schemas or alternative modeling strategies are welcome.  
-Feel free to propose additional queries or improvements to JSON structures.  
+Feel free to propose additional improves to JSON structures.  
 
 ---
 

@@ -1,0 +1,76 @@
+{
+  "_id": "68cafdb6b81ed76f95fef7c8",
+  "user": {
+    "_id": "68cafd0162d793f185b688d9",
+    "email": "marce@gmail.com",
+    "password": "123XXX",
+    "username": "maarselo",
+    "birth_date": "2006-10-08T03:34:08Z",
+    "sex": "male",
+    "country": "Spain",
+    "zip_code": "08037",
+    "channel": {
+      "_id": "68cb0174bde802bf922b9e9f",
+      "name": "maarselo_channel",
+      "description": "This is my channel.",
+      "creation_date": "2024-10-08T12:45:43Z"
+    },
+    "subscriptions": [
+      "68cb01e4016e61ae6490eb5a"
+    ],
+    "playlists": [
+      {
+        "_id": "68cb03f562dc2a441e977f82",
+        "name": "maarselo_playlist",
+        "creation_date": "2025-08-12T12:23:34Z",
+        "state": "private"
+      }
+    ],
+    "reactions": [
+      {
+        "id_video": "68cb03c33c8c9546be83140d",
+        "reaction_type": "dislike",
+        "reaction_date": "225-10-19T13:34:31Z"
+      }
+    ],
+    "comments": [
+      {
+        "_id": "68cb0a78f8d0b51a96b7b2c1",
+        "text": "I like this guy.",
+        "creation_date": "2024-08-17T13:34:06Z"
+      }
+    ]
+  },
+  "title": "my first video",
+  "description": "first description",
+  "size_mb": "87548.34",
+  "file_name": "my_first_video",
+  "duration_min": "1.23",
+  "thumbnail": null,
+  "reproductions": 1342.0,
+  "likes_number": 56.0,
+  "dislikes_number": 1563.0,
+  "state": "public",
+  "tags": [
+    {
+      "_id": "68caff619a3196e2b6fc0725",
+      "name": "fun"
+    }
+  ],
+  "publication_date": "2025-09-17T21:45:56Z",
+  "reactions": [
+    {
+      "_id_user": "68cb01fbd2ac08f3f53c5659",
+      "reaction_type": "like",
+      "reaction_date": "2025-09-18T23:45:34Z"
+    }
+  ],
+  "comments": [
+    {
+      "_id": "68cb0a78f8d0b51a96b7b2c1",
+      "_id_user": "68cb050fa7a3f77b1e829374",
+      "text": "I like this guy.",
+      "creation_dte": "2024-08-17T13:34:06Z"
+    }
+  ]
+}

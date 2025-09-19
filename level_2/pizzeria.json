@@ -1,0 +1,92 @@
+{
+  "_id": "68cadfbe5d2d9d7f06c6e59c",
+  "name": "Fast furious food",
+  "address": "Carrer Bailen 127",
+  "zip_code": "08037",
+  "locality": "Terrasa",
+  "province": "Barcelona",
+  "employees": [
+    {
+      "_id": "68caedb5ff69f8b2eb0c0d39",
+      "name": "Rodrigo",
+      "surnames": "Velazquez Martinez",
+      "nif": "23675444r",
+      "telephone": "643564786",
+      "position": "delivery"
+    },
+    {
+      "_id": "68caee7906fd347e6aae9e52",
+      "name": "Pedro",
+      "surnames": "Rubio Canales",
+      "nif": "265754437y",
+      "telephone": "643367434",
+      "position": "cook"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "68caeef0cc1ca608a517fe75",
+      "order_date": "2025-06-18T16:44:23Z",
+      "client": {
+        "_id": "68caefaa05a82c96553825f7",
+        "name": "Sergi",
+        "surnames": "Gallardo Perez",
+        "address": "Avenida Diagonal 34",
+        "zip_code": "34987",
+        "locality": "Badalona",
+        "province": "Barcelona",
+        "telephone": "642586519"
+      },
+      "order_type": "delivery",
+      "pizzas": [
+        {
+          "_id": "68caf5a4ecd62686a776fceb",
+          "name": "Margaritha",
+          "description": "flour dough with tomate and cheese",
+          "image": null,
+          "price": 10,
+          "amount": 2,
+          "category": "Classics"
+        },
+        {
+          "_id": "68caf84dbb9f083134607515",
+          "name": "Diavola",
+          "description": "flour dough with tomate and spicy sausage",
+          "image": null,
+          "price": 13,
+          "amount": 1,
+          "category": "Especials"
+        }
+      ],
+      "burgers": [
+        {
+          "_id": "68caf7cb30263646227e52f3",
+          "name": "CheeseBurguer",
+          "description": "beef bruguer with chese",
+          "image": null,
+          "price": 15,
+          "amount": 2
+        }
+      ],
+      "drinks": [
+        {
+          "_id": "68caf810fc8dd264551b5497",
+          "name": "Fanta",
+          "description": "orange-flavored sugary drink",
+          "image": null,
+          "price": 2.5,
+          "amount": 3
+        },
+        {
+          "_id": "68caf888fc1823921731a787",
+          "name": "Coca Cola",
+          "description": "cola sugary drink",
+          "image": null,
+          "price": 2.5,
+          "amount": 1
+        }
+      ],
+      "total_price" : 73.0
+    }
+  ]
+}

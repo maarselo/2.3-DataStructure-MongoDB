@@ -1,0 +1,82 @@
+{
+  "_id": "6856d09acfcd2f760fc6caa9",
+  "name": "Marcelo",
+  "address": "Avenida Meridiana 24",
+  "zip_code": "08037",
+  "telephone": "675819764",
+  "email": "marce@gmail.com",
+  "register_date": "2025-10-08",
+  "recommended_by": null,
+  "purchases": [
+    {
+      "_id": "68ca8408788ec102cc4eb95a",
+      "sale_date": "2025-11-08",
+      "sold_by": "68ca98ff04ad6dc2bc640560",
+      "price": 127.0,
+      "glasses": {
+        "_id": "68ca9bb350a06df542611665",
+        "brand": "Rayban",
+        "graduation": {
+          "left": 1.25,
+          "right": 1.50
+        },
+        "frame_type": "floating",
+        "frame_color": "red",
+        "glass_color": {
+          "left": "purple",
+          "right": "purple"
+        },
+        "supplier": {
+          "_id": "68ca9bd2e7be411a2cf3b564",
+          "address": {
+            "street": "Avenida Diagonal",
+            "number": 134,
+            "floor": 5,
+            "door": 2,
+            "city": "Barcelona",
+            "zip_code": "08037",
+            "country": "Spain"
+          },
+          "telephone": "643526854",
+          "fax": "981526587",
+          "nif": "23986424b"
+        }
+      }
+    },
+    {
+      "_id": "68ca9ea45e9c6ba2412e616e",
+      "sale_date": "2025-11-19",
+      "sold_by": "68ca98ff04ad6dc2bc640560",
+      "price": 178.0,
+      "glasses": {
+        "_id": "68ca9f115a2aa30444f449da",
+        "brand": "Rayban",
+        "graduation": {
+          "left": 1.67,
+          "right": -1.03
+        },
+        "frame_type": "metallic",
+        "frame_color": "transparent",
+        "glass_color": {
+          "left": "red",
+          "right": "red"
+        },
+        "supplier": {
+          "_id": "68ca9bd2e7be411a2cf3b564",
+          "address": {
+            "street": "Avenida Diagonal",
+            "number": 134,
+            "floor": 5,
+            "door": 2,
+            "city": "Barcelona",
+            "zip_code": "08037",
+            "country": "Spain"
+          },
+          "telephone": "643526854",
+          "fax": "981526587",
+          "nif": "23986424b"
+        }
+      }
+    }
+  ]
+}

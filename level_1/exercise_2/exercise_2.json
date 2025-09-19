@@ -1,0 +1,41 @@
+{
+  "_id": "68ca9bb350a06df542611665",
+  "brand": "Rayban",
+  "graduation": {
+    "left": 1.25,
+    "right": 1.5
+  },
+  "frame_type": "floating",
+  "frame_color": "red",
+  "glass_color": {
+    "left": "purple",
+    "right": "purple"
+  },
+  "supplier": {
+    "_id": "68ca9bd2e7be411a2cf3b564",
+    "address": {
+      "street": "Avenida Diagonal",
+      "number": 134,
+      "floor": 5,
+      "door": 2,
+      "city": "Barcelona",
+      "zip_code": "08037",
+      "country": "Spain"
+    },
+    "telephone": "643526854",
+    "fax": "981526587",
+    "nif": "23986424b"
+  },
+  "purchased_by": [
+    {
+      "_id": "6856d09acfcd2f760fc6caa9",
+      "name": "Marcelo",
+      "address": "Avenida Meridiana 24",
+      "zip_code": "84152",
+      "telephone": "643526514",
+      "email": "marce@gmail.com",
+      "registration_date": "2025-01-13T12:34:56Z",
+      "recommended_by": null
+    }
+  ]
+}

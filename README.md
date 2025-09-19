@@ -34,7 +34,7 @@ The database stores information about:
 
 ## 🍕 Level 2
 
-### Exercise 1 – Food Delivery Platform
+### Food Delivery Platform
 We design a schema for an online food delivery system.  
 The database stores:
 
@@ -55,7 +55,7 @@ Relations modeled:
 
 ## 🎦 Level 3
 
-### Exercise 1 – Simplified YouTube
+### Simplified YouTube
 We design a simplified YouTube-like schema.  
 The database stores:
 
@@ -117,4 +117,4 @@ Feel free to propose additional improves to JSON structures.
 
 ---
 
-# 🙏 **Thank you for reviewing this project!** 🚀  
+## 🙏 **Thank you for reviewing this project!** 🚀  

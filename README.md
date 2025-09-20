@@ -32,9 +32,9 @@ The database stores information about:
 
 ---
 
-## 🍕 Level 2
+## 🍴 Level 2
 
-### Food Delivery Platform
+### 🍕 Food Delivery Platform
 We design a schema for an online food delivery system.  
 The database stores:
 
